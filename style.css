@@ -1,0 +1,12 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,Arial,sans-serif;background:#f3f4f6;color:#1f2937;line-height:1.5}
+nav{background:#2563eb;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;padding:12px 20px}nav b{color:#fff;margin-right:auto;font-size:1.1rem}nav a{color:#dbeafe;text-decoration:none}nav a:hover{color:#fff}
+main{max-width:1000px;margin:24px auto;padding:0 16px;min-height:70vh}footer{text-align:center;padding:16px;color:#6b7280;font-size:.85rem}
+h1{margin-top:0}.hero{background:#fff;border-radius:12px;padding:40px 24px;text-align:center;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:16px 0}.card{background:#fff;border-radius:10px;padding:16px;box-shadow:0 1px 3px #0001;margin-bottom:10px}.card h2{margin:0;color:#2563eb;font-size:2rem}
+form.box{background:#fff;padding:22px;border-radius:12px;max-width:480px;margin:auto;box-shadow:0 1px 3px #0001}label{display:block;font-weight:600;margin:12px 0 4px}
+input,select,textarea{width:100%;padding:9px;border:1px solid #d1d5db;border-radius:6px;font:inherit}textarea{min-height:90px}
+button,.btn{background:#2563eb;color:#fff;border:0;padding:9px 16px;border-radius:6px;cursor:pointer;font:inherit;text-decoration:none;display:inline-block;margin-top:12px}button.del{background:#dc2626}button.alt{background:#6b7280}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden}th,td{padding:10px;text-align:left;border-bottom:1px solid #e5e7eb;vertical-align:top}th{background:#e5e7eb}.wrap{overflow-x:auto}
+.b{padding:3px 10px;border-radius:99px;font-size:.8rem;font-weight:600}.Pending{background:#fef3c7;color:#92400e}.InProgress{background:#dbeafe;color:#1e40af}.Resolved{background:#d1fae5;color:#065f46}.Rejected{background:#fee2e2;color:#991b1b}
+.msg{padding:10px;border-radius:6px;margin:10px 0}.msg:empty{display:none}.msg.ok{background:#d1fae5;color:#065f46}.msg.bad{background:#fee2e2;color:#991b1b}
+.bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px}.bar select{width:auto}td input{margin-top:6px}small{color:#6b7280}
